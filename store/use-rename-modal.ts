@@ -3,7 +3,6 @@ import { create } from "zustand"
 const defaultValues = { id: "", title: "" };
 
 
-
 interface IRenameModal {
     isOpen: boolean;
     initialValues: typeof defaultValues;
