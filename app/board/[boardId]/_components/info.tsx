@@ -57,7 +57,7 @@ export default function Info({
                             "font-semibold text-lg ml-2 text-black",
                             font.className,
                         )}>
-                            Playground
+                            Playboard
                         </span>
                     </Link>
                 </Button>

@@ -14,7 +14,7 @@ export default function EmptyOrg() {
                 width={180}
             />
             <h2 className="text-2xl font-semibold mt-6">
-                Welcome to Playground
+                Welcome to Playboard
             </h2>
             <p className="text-muted-foreground text-sm mt-2">
                 Create an organization to get started
