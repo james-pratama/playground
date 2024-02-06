@@ -45,19 +45,19 @@ export default function Info({
     return (
         <div className="absolute top-2 left-2 bg-white rounded-md px-1.5 h-12 flex items-center shadow-md">
             <Hint label="Go to boards" side="bottom" sideOffset={10}>
-                <Button asChild variant="board" className="px-2">
+                <Button asChild variant="board" className="p-2">
                     <Link href="/" >
                         <Image
                             src="/logo.svg"
                             alt="Board logo"
-                            height={40}
-                            width={40}
+                            height={28}
+                            width={28}
                         />
                         <span className={cn(
                             "font-semibold text-lg ml-2 text-black",
                             font.className,
                         )}>
-                            Board
+                            Playground
                         </span>
                     </Link>
                 </Button>
